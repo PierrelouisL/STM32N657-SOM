@@ -416,13 +416,17 @@
         "uuid": "af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
       }
     ],
-    "used_designators": "IC1",
+    "used_designators": "R1,J1-2,IC1,U1,C1-51,#PWR1-40,L1-2,FB1,Y1-2",
     "variants": []
   },
   "sheets": [
     [
       "af5ed896-0f4b-4a3b-83a3-1b3549d508f8",
       "Racine"
+    ],
+    [
+      "b069fc75-800d-4bb3-9535-5aba8669997e",
+      "PWR"
     ]
   ],
   "text_variables": {},

@@ -9362,22 +9362,10 @@
 		(uuid "01012793-810d-423e-90fc-d90ea3215a14")
 	)
 	(junction
-		(at 562.61 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0dfb927e-bd79-4194-9cb2-aa804224258a")
-	)
-	(junction
 		(at 157.48 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11e7a713-312d-4e3d-93de-abfc2a325021")
-	)
-	(junction
-		(at 554.99 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "134695df-0e85-4292-8604-c69d76dfc06f")
 	)
 	(junction
 		(at 544.83 116.84)
@@ -9386,10 +9374,22 @@
 		(uuid "1348edee-0bbb-4507-94fc-677e864ffbe8")
 	)
 	(junction
+		(at 355.6 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19ad455d-2827-4cde-828a-9fa98333bc7c")
+	)
+	(junction
 		(at 373.38 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b1026fb-6ab0-4d68-bd70-6dece42a9995")
+	)
+	(junction
+		(at 558.8 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cbd3f40-9385-43a5-b434-d8d8d5340c32")
 	)
 	(junction
 		(at 562.61 104.14)
@@ -9410,16 +9410,10 @@
 		(uuid "3af37140-a7b2-4f9d-9d77-8992abfdd8a2")
 	)
 	(junction
-		(at 355.6 140.97)
+		(at 554.99 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3d4129c1-1838-457e-b948-502f35a0017d")
-	)
-	(junction
-		(at 558.8 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "402497c0-a6cd-4a96-8c49-94fbce676a1c")
+		(uuid "3c252a69-1bc9-4cf9-be62-ad1eb1cd266c")
 	)
 	(junction
 		(at 129.54 226.06)
@@ -9446,16 +9440,16 @@
 		(uuid "58e0f32e-4db5-4dd1-8b98-62fd2fa7beba")
 	)
 	(junction
-		(at 355.6 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f9fba47-d6a9-42c9-998b-9998dc5eb35d")
-	)
-	(junction
 		(at 566.42 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a2295ff-28f1-4812-882b-00e94970c6f2")
+	)
+	(junction
+		(at 558.8 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c6cd880-7886-4c18-a118-4c87b4853e24")
 	)
 	(junction
 		(at 544.83 104.14)
@@ -9488,6 +9482,12 @@
 		(uuid "9d20c4cc-7a13-4338-93bf-2c72a8d8839d")
 	)
 	(junction
+		(at 355.6 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fc2975e-0eba-4145-ad98-7a3bd135feb3")
+	)
+	(junction
 		(at 80.01 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9518,12 +9518,6 @@
 		(uuid "c12d41be-6bae-413b-b386-12278b98f74a")
 	)
 	(junction
-		(at 558.8 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c41c5bb6-cd59-47ea-8118-68bf7548c968")
-	)
-	(junction
 		(at 562.61 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9536,10 +9530,16 @@
 		(uuid "d2cb4c36-b184-41dc-a19e-299efb1cfea3")
 	)
 	(junction
+		(at 562.61 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d52a720b-d59f-4c0d-b0a3-e4ce8df17281")
+	)
+	(junction
 		(at 553.72 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "df3913fd-e0ca-47d0-8a5a-72c7b482d746")
+		(uuid "ec634925-8561-415b-aecd-76836be11b8e")
 	)
 	(junction
 		(at 92.71 26.67)
@@ -9552,8 +9552,16 @@
 		(uuid "8deaa99a-f77b-4375-bfc4-7a33b8ab3c33")
 	)
 	(no_connect
+		(at 148.59 48.26)
+		(uuid "942d5572-ca46-44f5-87b1-76308530af4d")
+	)
+	(no_connect
 		(at 544.83 130.81)
 		(uuid "cd601946-7b6d-47bd-99ca-a54af9a6ede5")
+	)
+	(no_connect
+		(at 148.59 60.96)
+		(uuid "f688a63b-8b60-40da-a62a-a2dd2f13d9f8")
 	)
 	(wire
 		(pts
@@ -9780,16 +9788,6 @@
 	)
 	(wire
 		(pts
-			(xy 561.34 63.5) (xy 552.45 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "104f0b11-9880-4f6d-85fd-3ef1b50e143d")
-	)
-	(wire
-		(pts
 			(xy 274.32 116.84) (xy 254 116.84)
 		)
 		(stroke
@@ -9807,6 +9805,16 @@
 			(type default)
 		)
 		(uuid "142e31e2-ffcc-452e-8e83-a258cc078ecf")
+	)
+	(wire
+		(pts
+			(xy 168.91 233.68) (xy 154.94 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1479f2c9-e7dc-4eb3-9438-a880fcac4493")
 	)
 	(wire
 		(pts
@@ -9860,16 +9868,6 @@
 	)
 	(wire
 		(pts
-			(xy 562.61 34.29) (xy 558.8 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18c58068-1d78-460f-8c73-2a3fda645174")
-	)
-	(wire
-		(pts
 			(xy 274.32 83.82) (xy 254 83.82)
 		)
 		(stroke
@@ -9880,7 +9878,7 @@
 	)
 	(wire
 		(pts
-			(xy 554.99 115.57) (xy 558.8 115.57)
+			(xy 549.91 115.57) (xy 554.99 115.57)
 		)
 		(stroke
 			(width 0)
@@ -9900,17 +9898,7 @@
 	)
 	(wire
 		(pts
-			(xy 504.19 135.89) (xy 518.16 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1baefae8-15a5-4ec2-acda-8519237b2c3f")
-	)
-	(wire
-		(pts
-			(xy 501.65 55.88) (xy 510.54 55.88)
+			(xy 501.65 55.88) (xy 518.16 55.88)
 		)
 		(stroke
 			(width 0)
@@ -10001,16 +9989,6 @@
 	)
 	(wire
 		(pts
-			(xy 561.34 60.96) (xy 552.45 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "217b7036-c097-4e3b-a380-c2483cb84ba0")
-	)
-	(wire
-		(pts
 			(xy 283.21 45.72) (xy 294.64 45.72)
 		)
 		(stroke
@@ -10041,7 +10019,7 @@
 	)
 	(wire
 		(pts
-			(xy 558.8 41.91) (xy 562.61 41.91)
+			(xy 553.72 41.91) (xy 558.8 41.91)
 		)
 		(stroke
 			(width 0)
@@ -10163,6 +10141,16 @@
 	)
 	(wire
 		(pts
+			(xy 562.61 115.57) (xy 567.69 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c72be26-f075-43b5-9354-09d06fca13c8")
+	)
+	(wire
+		(pts
 			(xy 168.91 226.06) (xy 154.94 226.06)
 		)
 		(stroke
@@ -10262,6 +10250,16 @@
 			(type default)
 		)
 		(uuid "3532607b-1462-4491-9f6c-693dc29a8b03")
+	)
+	(wire
+		(pts
+			(xy 544.83 53.34) (xy 561.34 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35e6aad4-7e68-40c8-b929-17d647d6ebfa")
 	)
 	(wire
 		(pts
@@ -10376,7 +10374,7 @@
 	)
 	(wire
 		(pts
-			(xy 501.65 116.84) (xy 510.54 116.84)
+			(xy 501.65 116.84) (xy 518.16 116.84)
 		)
 		(stroke
 			(width 0)
@@ -10448,13 +10446,13 @@
 	)
 	(wire
 		(pts
-			(xy 558.8 34.29) (xy 553.72 34.29)
+			(xy 544.83 68.58) (xy 561.34 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "48e0fea9-fb4f-4f8d-a816-8a4a9fc34153")
+		(uuid "477b0c15-a798-4485-a1e4-af178742f284")
 	)
 	(wire
 		(pts
@@ -10465,6 +10463,16 @@
 			(type default)
 		)
 		(uuid "4a1555a5-98b8-4f1b-8b3a-07151f6eaced")
+	)
+	(wire
+		(pts
+			(xy 496.57 135.89) (xy 518.16 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a288376-d210-4597-8e19-4f76dd3c36c2")
 	)
 	(wire
 		(pts
@@ -10528,7 +10536,7 @@
 	)
 	(wire
 		(pts
-			(xy 501.65 58.42) (xy 510.54 58.42)
+			(xy 501.65 58.42) (xy 518.16 58.42)
 		)
 		(stroke
 			(width 0)
@@ -10690,6 +10698,16 @@
 	)
 	(wire
 		(pts
+			(xy 553.72 34.29) (xy 558.8 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "610757b6-16af-44c2-aa3a-ac2b927cbc31")
+	)
+	(wire
+		(pts
 			(xy 274.32 38.1) (xy 254 38.1)
 		)
 		(stroke
@@ -10741,16 +10759,6 @@
 	)
 	(wire
 		(pts
-			(xy 562.61 115.57) (xy 567.69 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6466f651-4793-484c-9667-bcf64eeaa301")
-	)
-	(wire
-		(pts
 			(xy 501.65 49.53) (xy 518.16 49.53)
 		)
 		(stroke
@@ -10772,7 +10780,17 @@
 	)
 	(wire
 		(pts
-			(xy 501.65 66.04) (xy 510.54 66.04)
+			(xy 554.99 115.57) (xy 558.8 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6933daca-5e47-4d40-b7da-b92d094461dc")
+	)
+	(wire
+		(pts
+			(xy 501.65 66.04) (xy 518.16 66.04)
 		)
 		(stroke
 			(width 0)
@@ -10822,16 +10840,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 48.26) (xy 148.59 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fd26913-1239-440b-bc61-a62c7945f661")
-	)
-	(wire
-		(pts
 			(xy 377.19 50.8) (xy 386.08 50.8)
 		)
 		(stroke
@@ -10863,17 +10871,7 @@
 	)
 	(wire
 		(pts
-			(xy 561.34 66.04) (xy 552.45 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "728fe8cd-faff-4dae-bddf-b4d960ddc7b7")
-	)
-	(wire
-		(pts
-			(xy 501.65 127) (xy 510.54 127)
+			(xy 501.65 127) (xy 518.16 127)
 		)
 		(stroke
 			(width 0)
@@ -10973,7 +10971,7 @@
 	)
 	(wire
 		(pts
-			(xy 501.65 129.54) (xy 510.54 129.54)
+			(xy 501.65 129.54) (xy 518.16 129.54)
 		)
 		(stroke
 			(width 0)
@@ -10993,13 +10991,13 @@
 	)
 	(wire
 		(pts
-			(xy 549.91 115.57) (xy 554.99 115.57)
+			(xy 115.57 233.68) (xy 129.54 233.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7e4e2c99-2cb3-4d6b-a90d-be8a18fcefd5")
+		(uuid "7e4b0128-0719-443c-8997-d100601f9697")
 	)
 	(wire
 		(pts
@@ -11093,23 +11091,13 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 140.97) (xy 355.6 140.97)
+			(xy 355.6 140.97) (xy 360.68 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "85d09fb3-3f3c-4a76-bb2f-f6000049254d")
-	)
-	(wire
-		(pts
-			(xy 505.46 34.29) (xy 510.54 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "863b48da-8e8e-40bb-938e-ba64a0bee27f")
+		(uuid "855d5d3b-db66-4818-9310-3c0b84eed15a")
 	)
 	(wire
 		(pts
@@ -11143,7 +11131,7 @@
 	)
 	(wire
 		(pts
-			(xy 501.65 121.92) (xy 510.54 121.92)
+			(xy 501.65 121.92) (xy 518.16 121.92)
 		)
 		(stroke
 			(width 0)
@@ -11204,16 +11192,6 @@
 	)
 	(wire
 		(pts
-			(xy 561.34 55.88) (xy 552.45 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8db93e4e-e41c-40a6-9fc8-80d73d633b6b")
-	)
-	(wire
-		(pts
 			(xy 283.21 111.76) (xy 294.64 111.76)
 		)
 		(stroke
@@ -11234,6 +11212,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 158.75) (xy 360.68 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fe50eac-3784-4217-b92c-3bef9bd252a5")
+	)
+	(wire
+		(pts
 			(xy 189.23 78.74) (xy 203.2 78.74)
 		)
 		(stroke
@@ -11251,6 +11239,16 @@
 			(type default)
 		)
 		(uuid "92bfd466-400e-426d-a530-10a8ac792eb7")
+	)
+	(wire
+		(pts
+			(xy 544.83 60.96) (xy 561.34 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "932ecfd0-93a0-487f-9259-5b9ad545cd1c")
 	)
 	(wire
 		(pts
@@ -11291,16 +11289,6 @@
 			(type default)
 		)
 		(uuid "98211bbc-99fe-47ee-a176-4a4892f3bf9b")
-	)
-	(wire
-		(pts
-			(xy 351.79 158.75) (xy 355.6 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "983d7a40-9cc0-46f9-8523-a7582d7dec4a")
 	)
 	(wire
 		(pts
@@ -11416,6 +11404,16 @@
 	)
 	(wire
 		(pts
+			(xy 544.83 58.42) (xy 561.34 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f7b6efe-51e5-4d31-81e6-2246a5a995ff")
+	)
+	(wire
+		(pts
 			(xy 448.31 83.82) (xy 436.88 83.82)
 		)
 		(stroke
@@ -11453,16 +11451,6 @@
 			(type default)
 		)
 		(uuid "a29ade85-2e66-4876-8b1d-a390dc1f5674")
-	)
-	(wire
-		(pts
-			(xy 166.37 60.96) (xy 148.59 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a49393db-244a-4680-bf8e-ae1b1e4887c1")
 	)
 	(wire
 		(pts
@@ -11547,6 +11535,16 @@
 	)
 	(wire
 		(pts
+			(xy 497.84 34.29) (xy 518.16 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa14e908-4d72-46cb-97cd-f61d2c734e6d")
+	)
+	(wire
+		(pts
 			(xy 377.19 55.88) (xy 386.08 55.88)
 		)
 		(stroke
@@ -11568,7 +11566,7 @@
 	)
 	(wire
 		(pts
-			(xy 501.65 111.76) (xy 510.54 111.76)
+			(xy 501.65 111.76) (xy 518.16 111.76)
 		)
 		(stroke
 			(width 0)
@@ -11585,6 +11583,26 @@
 			(type default)
 		)
 		(uuid "b002862c-13d6-45b2-a0f5-0b247bfea28d")
+	)
+	(wire
+		(pts
+			(xy 544.83 66.04) (xy 561.34 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0c4c69f-b004-45ed-b952-95d8b5664f7b")
+	)
+	(wire
+		(pts
+			(xy 558.8 41.91) (xy 562.61 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b182802e-4189-4d0d-b945-c0e235af9fde")
 	)
 	(wire
 		(pts
@@ -11759,7 +11777,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 140.97) (xy 360.68 140.97)
+			(xy 351.79 140.97) (xy 355.6 140.97)
 		)
 		(stroke
 			(width 0)
@@ -11789,16 +11807,6 @@
 	)
 	(wire
 		(pts
-			(xy 553.72 41.91) (xy 558.8 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfab7caf-72fc-499d-a2b8-0e92164cf7d1")
-	)
-	(wire
-		(pts
 			(xy 283.21 93.98) (xy 294.64 93.98)
 		)
 		(stroke
@@ -11809,7 +11817,7 @@
 	)
 	(wire
 		(pts
-			(xy 501.65 53.34) (xy 510.54 53.34)
+			(xy 501.65 53.34) (xy 518.16 53.34)
 		)
 		(stroke
 			(width 0)
@@ -11849,23 +11857,23 @@
 	)
 	(wire
 		(pts
-			(xy 561.34 58.42) (xy 552.45 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c32b61f6-07fc-4c69-81f9-98de1a10c827")
-	)
-	(wire
-		(pts
-			(xy 501.65 114.3) (xy 510.54 114.3)
+			(xy 501.65 114.3) (xy 518.16 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c4959509-2cdc-4fc7-8b71-9d64d1c29c17")
+	)
+	(wire
+		(pts
+			(xy 544.83 63.5) (xy 561.34 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c68b682c-8da9-4600-a921-268b2c013aea")
 	)
 	(wire
 		(pts
@@ -11916,16 +11924,6 @@
 			(type default)
 		)
 		(uuid "c8d418c3-f7ba-44e4-af16-614430c46c53")
-	)
-	(wire
-		(pts
-			(xy 561.34 68.58) (xy 552.45 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca15efe4-673a-4b6b-b0e9-6507efcc11e2")
 	)
 	(wire
 		(pts
@@ -12033,7 +12031,7 @@
 	)
 	(wire
 		(pts
-			(xy 501.65 71.12) (xy 510.54 71.12)
+			(xy 501.65 71.12) (xy 518.16 71.12)
 		)
 		(stroke
 			(width 0)
@@ -12064,7 +12062,7 @@
 	)
 	(wire
 		(pts
-			(xy 501.65 119.38) (xy 510.54 119.38)
+			(xy 501.65 119.38) (xy 518.16 119.38)
 		)
 		(stroke
 			(width 0)
@@ -12135,7 +12133,7 @@
 	)
 	(wire
 		(pts
-			(xy 501.65 68.58) (xy 510.54 68.58)
+			(xy 501.65 68.58) (xy 518.16 68.58)
 		)
 		(stroke
 			(width 0)
@@ -12175,6 +12173,16 @@
 	)
 	(wire
 		(pts
+			(xy 558.8 34.29) (xy 562.61 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1a06adf-c62e-477c-9fe1-35bbc8165a7a")
+	)
+	(wire
+		(pts
 			(xy 345.44 60.96) (xy 360.68 60.96)
 		)
 		(stroke
@@ -12182,6 +12190,16 @@
 			(type default)
 		)
 		(uuid "e39582f7-deeb-4229-ac63-95bc8d53f9fc")
+	)
+	(wire
+		(pts
+			(xy 544.83 71.12) (xy 561.34 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3bbc393-166b-4af6-b6fd-5f7dbc43e107")
 	)
 	(wire
 		(pts
@@ -12205,7 +12223,7 @@
 	)
 	(wire
 		(pts
-			(xy 501.65 124.46) (xy 510.54 124.46)
+			(xy 501.65 124.46) (xy 518.16 124.46)
 		)
 		(stroke
 			(width 0)
@@ -12266,7 +12284,7 @@
 	)
 	(wire
 		(pts
-			(xy 501.65 63.5) (xy 510.54 63.5)
+			(xy 501.65 63.5) (xy 518.16 63.5)
 		)
 		(stroke
 			(width 0)
@@ -12283,16 +12301,6 @@
 			(type default)
 		)
 		(uuid "ed32ab0d-35f7-4f89-9ab2-2ebfb95d1885")
-	)
-	(wire
-		(pts
-			(xy 561.34 53.34) (xy 552.45 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edb87282-8ddc-464e-b677-908bcd83a3e2")
 	)
 	(wire
 		(pts
@@ -12449,6 +12457,16 @@
 	)
 	(wire
 		(pts
+			(xy 544.83 55.88) (xy 561.34 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f65a944a-0b3a-44d1-bf9b-cc94738f1126")
+	)
+	(wire
+		(pts
 			(xy 121.92 220.98) (xy 125.73 220.98)
 		)
 		(stroke
@@ -12459,7 +12477,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 158.75) (xy 360.68 158.75)
+			(xy 351.79 158.75) (xy 355.6 158.75)
 		)
 		(stroke
 			(width 0)
@@ -12509,16 +12527,6 @@
 	)
 	(wire
 		(pts
-			(xy 561.34 71.12) (xy 552.45 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb5e3762-9bfb-48d7-8e4c-979c964dab82")
-	)
-	(wire
-		(pts
 			(xy 377.19 38.1) (xy 386.08 38.1)
 		)
 		(stroke
@@ -12552,7 +12560,7 @@
 	)
 	(wire
 		(pts
-			(xy 501.65 60.96) (xy 510.54 60.96)
+			(xy 501.65 60.96) (xy 518.16 60.96)
 		)
 		(stroke
 			(width 0)
@@ -13300,16 +13308,6 @@
 		)
 		(uuid "56210cb8-f2e5-4395-bf7e-a938db2c7c7c")
 	)
-	(label "OTG1_ID"
-		(at 166.37 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "56bb4746-e2da-4177-9a39-d2ba8ba902b2")
-	)
 	(label "PE12"
 		(at 283.21 66.04 0)
 		(effects
@@ -13650,16 +13648,6 @@
 		)
 		(uuid "83dc6a57-92d8-454b-a788-eceb4a31ba2a")
 	)
-	(label "OTG2_ID"
-		(at 166.37 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "876ac799-8b58-40d1-ae10-c6992df6ffdc")
-	)
 	(label "PF14"
 		(at 283.21 114.3 0)
 		(effects
@@ -13760,6 +13748,16 @@
 		)
 		(uuid "8dfc0be0-5fef-4761-8ac3-6d554161e026")
 	)
+	(label "PN1"
+		(at 501.65 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e962219-e3dd-450c-8142-4042ac92ffda")
+	)
 	(label "PP15"
 		(at 561.34 53.34 180)
 		(effects
@@ -13779,6 +13777,16 @@
 			(justify left bottom)
 		)
 		(uuid "90ff9171-fd2c-4478-8d37-503eb570eecb")
+	)
+	(label "PO0"
+		(at 501.65 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "933bc2cb-c8dc-4d3f-a805-0c442903af83")
 	)
 	(label "PG2"
 		(at 360.68 40.64 180)
@@ -14702,7 +14710,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 548.64 71.12 90)
+		(at 514.35 105.41 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14710,9 +14718,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "072da107-8d2e-4447-a1be-c39e4c685a71")
-		(property "Reference" "R36"
-			(at 551.434 72.39 90)
+		(uuid "01d2d9c6-3633-4ddf-b2e2-253c482f030e")
+		(property "Reference" "R43"
+			(at 507.746 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14723,7 +14731,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 547.116 71.12 90)
+			(at 512.826 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14733,8 +14741,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 548.64 72.898 90)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 514.35 107.188 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14745,7 +14753,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 548.64 71.12 0)
+			(at 514.35 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14756,7 +14764,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 548.64 71.12 0)
+			(at 514.35 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14767,23 +14775,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "d53b1884-1aa6-4cb7-9d48-2145b3f68396")
+			(uuid "b65cfdbf-dab1-4b67-9477-baaadfe91079")
 		)
 		(pin "1"
-			(uuid "03377208-ba13-4521-a44e-abdd38a165dd")
+			(uuid "29172647-b897-40aa-aaa5-b466ab0e7375")
 		)
 		(instances
 			(project "STM32N6_SOM"
 				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "R36")
+					(reference "R43")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 76.2 30.48 0)
+		(lib_id "Device:R")
+		(at 382.27 140.97 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14791,31 +14799,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "075440cd-de22-44c0-b39d-b78c4c9350bc")
-		(property "Reference" "C18"
-			(at 77.724 28.956 90)
+		(uuid "050f740b-5425-4e8e-940e-110c5b253b03")
+		(property "Reference" "R57"
+			(at 375.666 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "100nF"
-			(at 74.93 29.21 90)
+		(property "Value" "0R"
+			(at 380.746 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 77.1652 34.29 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 382.27 142.748 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14826,7 +14834,88 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 30.48 0)
+			(at 382.27 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 382.27 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9b2eb821-50c0-4e03-a384-ced3129c762e")
+		)
+		(pin "1"
+			(uuid "73a0b252-9cb7-4d7f-8fa9-4f09970d108b")
+		)
+		(instances
+			(project "STM32N6_SOM"
+				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
+					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 553.72 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "16e9ac4e-6ee6-4f98-b8c7-9bb181ce4ffa")
+		(property "Reference" "C64"
+			(at 555.244 36.576 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7µF"
+			(at 552.45 36.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 554.6852 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 553.72 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14837,7 +14926,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 76.2 30.48 0)
+			(at 553.72 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14848,15 +14937,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ef5135cc-f88b-4640-a07c-0ceb9f4ae665")
+			(uuid "2729b8b3-8d49-4f9f-ba3e-90cf454af3b6")
 		)
 		(pin "2"
-			(uuid "c1cdc293-279b-4b88-9820-720d9a4d48d4")
+			(uuid "235a49bb-57cf-47dc-a29d-d5b06b47b490")
 		)
 		(instances
 			(project "STM32N6_SOM"
 				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "C18")
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -14864,7 +14953,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 548.64 60.96 90)
+		(at 347.98 158.75 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14872,9 +14961,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0aa513bd-b6ba-4f90-908a-8c576ca23529")
-		(property "Reference" "R32"
-			(at 551.434 62.23 90)
+		(uuid "29e52001-ac97-443d-ac75-ebfbf4ba9fd8")
+		(property "Reference" "R56"
+			(at 341.376 160.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14885,7 +14974,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 547.116 60.96 90)
+			(at 346.456 158.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14895,8 +14984,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 548.64 62.738 90)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 347.98 160.528 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14907,7 +14996,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 548.64 60.96 0)
+			(at 347.98 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14918,7 +15007,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 548.64 60.96 0)
+			(at 347.98 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14929,497 +15018,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "c0f60727-2ef5-4da7-bef3-67aa0ed35575")
+			(uuid "9d01e2ae-ed12-4cae-839c-d12db4348a2e")
 		)
 		(pin "1"
-			(uuid "8f9a1610-955b-42d9-aa34-39bb97f4349f")
+			(uuid "23d79e52-6303-49f9-a81f-065c8e52fa42")
 		)
 		(instances
 			(project "STM32N6_SOM"
 				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 504.19 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ac97a5c-7d58-43a3-9090-28afa446a1d9")
-		(property "Reference" "#PWR065"
-			(at 504.19 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 504.19 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 504.19 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 504.19 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 504.19 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e307eb7d-59d6-444c-b1d6-ae483a2a4442")
-		)
-		(instances
-			(project "STM32N6_SOM"
-				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 355.6 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0d6e4614-9cd2-4bc4-9c46-5dcde84ff47b")
-		(property "Reference" "C67"
-			(at 357.124 161.036 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2pF"
-			(at 354.076 161.29 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 356.5652 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 355.6 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 355.6 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0dc83912-5368-4ffe-8d7e-f878bed8d02b")
-		)
-		(pin "2"
-			(uuid "37abe9d4-fa05-426c-b020-fa84b06409c6")
-		)
-		(instances
-			(project "STM32N6_SOM"
-				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "C67")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 567.69 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "162ec1e8-278e-4603-bc5c-056a9df3ac6a")
-		(property "Reference" "C57"
-			(at 569.214 110.236 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 566.42 110.49 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 568.6552 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 567.69 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 567.69 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "64e9080f-6983-4125-a10f-9a403a9627e6")
-		)
-		(pin "2"
-			(uuid "bf918a4c-b27c-424d-bcfa-49044783858a")
-		)
-		(instances
-			(project "STM32N6_SOM"
-				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "C57")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 382.27 158.75 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1b2af5e5-cbda-46dc-b9c9-6a693fe2304d")
-		(property "Reference" "R40"
-			(at 376.936 159.766 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0R"
-			(at 380.746 158.75 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 382.27 160.528 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 382.27 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 382.27 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a246b940-2660-41fd-8bce-5b5a6303678a")
-		)
-		(pin "1"
-			(uuid "4bc35106-a67a-4cd3-9ac6-3eb34d6a6ed1")
-		)
-		(instances
-			(project "STM32N6_SOM"
-				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "R40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 514.35 129.54 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1b81686a-6a7c-444d-a3ae-a5d0b843ebb3")
-		(property "Reference" "R9"
-			(at 509.016 130.556 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0R"
-			(at 512.826 129.54 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 514.35 131.318 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 514.35 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 514.35 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6135020a-1deb-49db-9051-5a9c25f4805f")
-		)
-		(pin "1"
-			(uuid "1226db9b-9a0b-411e-a39f-194dd4abe77d")
-		)
-		(instances
-			(project "STM32N6_SOM"
-				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 505.46 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2034649b-c1a6-412d-a286-753b40c82e34")
-		(property "Reference" "#PWR076"
-			(at 505.46 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 505.46 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 505.46 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 505.46 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 505.46 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f517cd3c-fddf-474f-94c9-c7ee5c14b8c1")
-		)
-		(instances
-			(project "STM32N6_SOM"
-				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "#PWR076")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -15458,7 +15065,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PLib:tfbga24 (6_8mm2)"
 			(at 532.13 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -16135,87 +15742,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 548.64 63.5 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "33607097-ca3f-4cfd-887c-986fc0fad1bc")
-		(property "Reference" "R33"
-			(at 551.434 64.77 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0R"
-			(at 547.116 63.5 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 548.64 65.278 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 548.64 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 548.64 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d13232e4-0b4b-43e2-b011-e92b372a50f2")
-		)
-		(pin "1"
-			(uuid "201e3279-38de-4a37-bd12-9ba3e08d2657")
-		)
-		(instances
-			(project "STM32N6_SOM"
-				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 355.6 166.37 0)
 		(unit 1)
@@ -16289,6 +15815,87 @@
 			(project "STM32N6_SOM"
 				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
 					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 571.5 123.19 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "37213dce-0a4e-4c99-8422-4d75a8c833a9")
+		(property "Reference" "R53"
+			(at 572.77 129.794 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 571.5 124.714 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 573.278 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 571.5 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 571.5 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b6744892-1874-446a-aa74-ed8f0d7d3c4c")
+		)
+		(pin "1"
+			(uuid "9bad3298-5097-40ef-b79b-c497a7650986")
+		)
+		(instances
+			(project "STM32N6_SOM"
+				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -16403,7 +16010,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C42418080:BGA-264_L14.0-W14.0-STM32N657X0H3Q"
+		(property "Footprint" "SamacSys:BGA264C80P17X17_1400X1400X100"
 			(at 411.48 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -17271,8 +16878,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 355.6 144.78 0)
+		(lib_id "Device:R")
+		(at 347.98 140.97 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17280,31 +16887,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "39a2a079-75d3-41d5-aa19-39d0c6877f7e")
-		(property "Reference" "C65"
-			(at 357.124 143.256 90)
+		(uuid "38ed102a-5e2f-4809-bdc3-e39d9d1ba307")
+		(property "Reference" "R55"
+			(at 341.376 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "8.2pF"
-			(at 354.076 143.51 90)
+		(property "Value" "0R"
+			(at 346.456 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 356.5652 148.59 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 347.98 142.748 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17315,7 +16922,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 355.6 144.78 0)
+			(at 347.98 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17325,8 +16932,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 355.6 144.78 0)
+		(property "Description" "Resistor"
+			(at 347.98 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17335,17 +16942,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "12d30e59-d87f-45e8-b3c0-b90cf30f283c")
 		)
 		(pin "2"
-			(uuid "7598ceb7-2945-4010-ac35-49b8bdfdeb99")
+			(uuid "b0148cf9-e257-441b-ae43-9d0b3af3914c")
+		)
+		(pin "1"
+			(uuid "75b82a36-0c22-4ccb-9b9b-f97cf18a87b7")
 		)
 		(instances
 			(project "STM32N6_SOM"
 				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "C65")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -17431,87 +17038,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 548.64 55.88 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3c71309b-12ad-4396-ab55-314c02adbee3")
-		(property "Reference" "R30"
-			(at 551.434 57.15 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0R"
-			(at 547.116 55.88 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 548.64 57.658 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 548.64 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 548.64 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b1720a56-155c-4d67-b779-64a493f3a63f")
-		)
-		(pin "1"
-			(uuid "828c0e2a-9bb5-4998-90b5-cf1730fc32fa")
-		)
-		(instances
-			(project "STM32N6_SOM"
-				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Crystal")
 		(at 364.49 158.75 0)
 		(unit 1)
@@ -17586,87 +17112,6 @@
 			(project "STM32N6_SOM"
 				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
 					(reference "Y2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 548.64 58.42 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3deb5800-d707-487e-9d17-c7b981077de3")
-		(property "Reference" "R31"
-			(at 551.434 59.69 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0R"
-			(at 547.116 58.42 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 548.64 60.198 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 548.64 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 548.64 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "573c92d8-0070-4379-98fb-b06cd4c1579e")
-		)
-		(pin "1"
-			(uuid "2f8c1b5a-a9b8-4dd2-81ef-9cd730f57a21")
-		)
-		(instances
-			(project "STM32N6_SOM"
-				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -17784,7 +17229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 374.3452 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -17827,87 +17272,6 @@
 			(project "STM32N6_SOM"
 				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
 					(reference "C68")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 514.35 63.5 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4854d6bb-1a64-48d4-83c2-82c1047aa8c2")
-		(property "Reference" "R25"
-			(at 507.746 64.77 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0R"
-			(at 512.826 63.5 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 514.35 65.278 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 514.35 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 514.35 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8e65bfd3-79d7-4b3a-b6d2-0d1d8cd9bf4f")
-		)
-		(pin "1"
-			(uuid "3b1481a3-e1a1-41ef-8406-d5bd7d24acb8")
-		)
-		(instances
-			(project "STM32N6_SOM"
-				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -18070,6 +17434,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 115.57 233.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b06e1c0-83e2-482f-a581-fa9ca73e068f")
+		(property "Reference" "#PWR079"
+			(at 115.57 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34aae8fe-1ac9-4306-92fa-4d8152db558b")
+		)
+		(instances
+			(project "STM32N6_SOM"
+				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PLib:STM32N657X0H3Q")
 		(at 320.04 76.2 0)
 		(unit 6)
@@ -18101,7 +17544,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C42418080:BGA-264_L14.0-W14.0-STM32N657X0H3Q"
+		(property "Footprint" "SamacSys:BGA264C80P17X17_1400X1400X100"
 			(at 320.04 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -18969,8 +18412,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 514.35 119.38 90)
+		(lib_id "PLib:VDD1V8")
+		(at 497.84 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18978,31 +18421,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "53bf3756-3f03-4453-ba2d-657eaea34809")
-		(property "Reference" "R13"
-			(at 507.746 120.65 90)
+		(uuid "51a78696-78c6-478c-a334-2f297260dc61")
+		(property "Reference" "#PWR076"
+			(at 497.586 24.384 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "0R"
-			(at 512.826 119.38 90)
+		(property "Value" "VDD1V8"
+			(at 497.84 24.384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 514.35 121.158 90)
+			(at 497.84 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19013,7 +18455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 514.35 119.38 0)
+			(at 497.84 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19023,8 +18465,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 514.35 119.38 0)
+		(property "Description" ""
+			(at 497.84 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19033,17 +18475,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "931b715d-108d-4a0c-84e5-032eb144612e")
 		)
 		(pin "1"
-			(uuid "e95c55aa-b7e7-407e-9a40-68e4df0510c6")
+			(uuid "ac9b094b-f1bf-4f86-9aaa-fcec8aa83382")
 		)
 		(instances
 			(project "STM32N6_SOM"
 				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "R13")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -19285,87 +18724,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 571.5 123.19 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "551457f4-9102-4121-ab06-1ff0faf1e31b")
-		(property "Reference" "R17"
-			(at 571.246 126.746 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 571.5 121.158 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 569.722 123.19 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 571.5 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 571.5 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c3b9d08c-0e77-43bc-8cc4-2400ca5ff95d")
-		)
-		(pin "1"
-			(uuid "91ac4176-c674-407e-b743-0c764f67cb77")
-		)
-		(instances
-			(project "STM32N6_SOM"
-				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 373.38 144.78 0)
 		(unit 1)
@@ -19398,7 +18756,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 374.3452 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -19527,7 +18885,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 571.5 38.1 0)
+		(at 554.99 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19535,9 +18893,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "613dd27a-6e20-410c-8034-7184960ddc25")
-		(property "Reference" "C64"
-			(at 573.024 36.576 90)
+		(uuid "5f459ca1-1aae-4522-b518-64eb9809e0d8")
+		(property "Reference" "C8"
+			(at 556.514 110.236 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19548,7 +18906,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 570.23 36.83 90)
+			(at 553.72 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19558,8 +18916,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 572.4652 41.91 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 555.9552 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19570,7 +18928,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 571.5 38.1 0)
+			(at 554.99 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19581,7 +18939,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 571.5 38.1 0)
+			(at 554.99 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19592,15 +18950,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "36ea3fbe-1749-4bc5-a4cd-2579fcf5e74f")
+			(uuid "46f862f7-841f-40e8-8f05-411ce936a7b6")
 		)
 		(pin "2"
-			(uuid "7d806d31-93e1-4af6-8e3b-7d99c0a0d8b9")
+			(uuid "d9eed11a-f9d0-4710-9408-f094dfa23988")
 		)
 		(instances
 			(project "STM32N6_SOM"
 				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "C64")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -19757,87 +19115,6 @@
 			(project "STM32N6_SOM"
 				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
 					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 514.35 68.58 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "63eba75f-bb83-4cba-9a45-9569c8b36822")
-		(property "Reference" "R27"
-			(at 507.746 69.85 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0R"
-			(at 512.826 68.58 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 514.35 70.358 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 514.35 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 514.35 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6b2cd865-391b-4461-852e-71692d8e01fa")
-		)
-		(pin "1"
-			(uuid "96834cea-e8ca-45ae-8a54-22c07e753567")
-		)
-		(instances
-			(project "STM32N6_SOM"
-				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -20003,17 +19280,17 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 514.35 60.96 90)
+		(at 571.5 133.35 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(uuid "6c4cea52-e1cc-407b-88c3-d3be1a19d5a2")
-		(property "Reference" "R24"
-			(at 507.746 62.23 90)
+		(dnp yes)
+		(uuid "6c4d8a78-899a-4f58-b31d-17cfff7101e4")
+		(property "Reference" "R54"
+			(at 572.77 139.954 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20023,8 +19300,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0R"
-			(at 512.826 60.96 90)
+		(property "Value" "10k"
+			(at 571.5 134.874 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20034,8 +19311,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 514.35 62.738 90)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 573.278 133.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20046,7 +19323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 514.35 60.96 0)
+			(at 571.5 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20057,7 +19334,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 514.35 60.96 0)
+			(at 571.5 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20068,15 +19345,256 @@
 			)
 		)
 		(pin "2"
-			(uuid "4d751235-a1b0-4e50-8409-d158f4a55f07")
+			(uuid "4eaa78fe-c1f5-46c4-9e48-a28a35bd9c3a")
 		)
 		(pin "1"
-			(uuid "0988b7ab-4d6f-4f55-8ab2-8ff41c54e56a")
+			(uuid "ec8b4e58-78f9-429e-9089-68488e5d2b1c")
 		)
 		(instances
 			(project "STM32N6_SOM"
 				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "R24")
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 355.6 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "715ab3b0-16f9-489d-b283-ae10045d96e3")
+		(property "Reference" "C87"
+			(at 357.124 161.036 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2pF"
+			(at 354.076 161.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 356.5652 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 355.6 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43dfe17d-f4c2-4e46-a93f-69b1b63aed44")
+		)
+		(pin "2"
+			(uuid "5815dcce-6b52-4995-9251-f4aab2600e9a")
+		)
+		(instances
+			(project "STM32N6_SOM"
+				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
+					(reference "C87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 88.9 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "716f4d1e-4fca-428f-b359-e554f50a2797")
+		(property "Reference" "C13"
+			(at 90.424 28.956 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1µF"
+			(at 87.63 29.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 89.8652 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 88.9 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f95b20c8-49c2-4c4a-a36a-bc9457cf371f")
+		)
+		(pin "2"
+			(uuid "d35c89e1-8a73-4e0a-98f2-445313339129")
+		)
+		(instances
+			(project "STM32N6_SOM"
+				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 168.91 233.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73052c9f-be64-48ca-9a66-1256d59e2a3c")
+		(property "Reference" "#PWR078"
+			(at 168.91 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2969dc48-a736-407f-a885-5bfc028d8df7")
+		)
+		(instances
+			(project "STM32N6_SOM"
+				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -20399,6 +19917,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 514.35 41.91 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "79624267-d14d-483c-a093-250633cd84a1")
+		(property "Reference" "R37"
+			(at 507.746 43.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 512.826 41.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 514.35 43.688 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 514.35 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 514.35 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cf79a03a-f816-48cb-bad6-adc9486e54b7")
+		)
+		(pin "1"
+			(uuid "dc3044b9-bbd3-4afb-8acb-8d8220ea0804")
+		)
+		(instances
+			(project "STM32N6_SOM"
+				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 558.8 38.1 0)
 		(unit 1)
@@ -20408,8 +20007,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "77bd5dbf-7d08-4e13-b613-45a15c4054bc")
-		(property "Reference" "C62"
+		(uuid "7bae085b-feb1-4973-be7e-1002f99623d0")
+		(property "Reference" "C9"
 			(at 560.324 36.576 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20431,7 +20030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 559.7652 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -20465,23 +20064,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "d7f62fed-b35e-4036-a378-178684db5ad1")
+			(uuid "3355eddf-2098-4e03-992f-04d55f12e572")
 		)
 		(pin "2"
-			(uuid "03b53b53-7c5a-49ae-84ed-d261eef080a5")
+			(uuid "4b3414d2-f4a1-4789-91b8-53c53363207c")
 		)
 		(instances
 			(project "STM32N6_SOM"
 				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "C62")
+					(reference "C9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 514.35 34.29 90)
+		(lib_id "Device:C")
+		(at 76.2 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20489,31 +20088,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "79e4bd92-fdab-4b16-9711-09bbeb2351fb")
-		(property "Reference" "R42"
-			(at 507.746 35.56 90)
+		(uuid "7bd12ef7-e91c-4748-810b-12a266e0cb88")
+		(property "Reference" "C11"
+			(at 77.724 28.956 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 512.826 34.29 90)
+		(property "Value" "100nF"
+			(at 74.93 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 514.35 36.068 90)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 77.1652 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20524,7 +20123,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 514.35 34.29 0)
+			(at 76.2 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20534,8 +20133,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 514.35 34.29 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 76.2 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20544,25 +20143,25 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "4fd3f77f-ef9e-4ed9-afa4-b55b9cf21c3f")
 		)
 		(pin "1"
-			(uuid "800581a6-01b2-4ebd-a2d1-cdcfc3e7e659")
+			(uuid "504e3181-8f78-4bee-84be-76672a7810cb")
+		)
+		(pin "2"
+			(uuid "155628c4-a6ed-4d74-a342-21fc9e80ff1d")
 		)
 		(instances
 			(project "STM32N6_SOM"
 				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "R42")
+					(reference "C11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 514.35 111.76 90)
+		(lib_id "Device:C")
+		(at 549.91 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20570,31 +20169,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7a2c63e8-918e-485f-8bc9-c58810cf8423")
-		(property "Reference" "R16"
-			(at 507.746 113.03 90)
+		(uuid "810ed637-7e31-4149-b4c0-5f6e994524bd")
+		(property "Reference" "C85"
+			(at 551.434 110.236 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "0R"
-			(at 512.826 111.76 90)
+		(property "Value" "4.7µF"
+			(at 548.64 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 514.35 113.538 90)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 550.8752 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20605,7 +20204,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 514.35 111.76 0)
+			(at 549.91 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20615,8 +20214,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 514.35 111.76 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 549.91 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20625,179 +20224,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "fed4ac17-86bc-4efe-8e17-9f749395def0")
 		)
 		(pin "1"
-			(uuid "9e8a7687-c25c-4f05-82ec-3a8ca56dfdcc")
+			(uuid "303604e1-c6e5-45b1-91ad-e091a289c9a2")
+		)
+		(pin "2"
+			(uuid "3843604a-7f69-4f0e-a6af-fa947d3cde46")
 		)
 		(instances
 			(project "STM32N6_SOM"
 				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 347.98 140.97 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7c255b86-8934-44b7-9e26-6cebd052df46")
-		(property "Reference" "R39"
-			(at 342.646 141.986 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0R"
-			(at 346.456 140.97 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 347.98 142.748 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 347.98 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 347.98 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4d51ddb4-3d25-4547-a83e-308328dbf4b3")
-		)
-		(pin "1"
-			(uuid "5f6baee9-6c5c-4505-baad-9e846a1fbe3d")
-		)
-		(instances
-			(project "STM32N6_SOM"
-				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 504.19 139.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7ed1ea7e-214b-492f-a58b-e9a6a86efd84")
-		(property "Reference" "R8"
-			(at 503.174 142.494 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 504.19 137.668 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 502.412 139.7 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 504.19 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 504.19 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "77910615-831c-4c7f-8b81-60b2a13fee02")
-		)
-		(pin "1"
-			(uuid "e006a497-60a7-4280-b1a3-74f187996ce8")
-		)
-		(instances
-			(project "STM32N6_SOM"
-				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "R8")
+					(reference "C85")
 					(unit 1)
 				)
 			)
@@ -21037,168 +20474,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 514.35 105.41 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8845e2c4-df88-4e70-9e3c-38bde09db963")
-		(property "Reference" "R20"
-			(at 507.746 106.68 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0R"
-			(at 512.826 105.41 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 514.35 107.188 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 514.35 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 514.35 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0302fe03-2eb7-4b87-9101-6b7e496e3a0a")
-		)
-		(pin "1"
-			(uuid "479376e5-197c-4a1a-9571-7babd08a64b2")
-		)
-		(instances
-			(project "STM32N6_SOM"
-				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 514.35 53.34 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8a0267a5-9178-4d08-804b-e6e662e1d8ee")
-		(property "Reference" "R21"
-			(at 507.746 54.61 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0R"
-			(at 512.826 53.34 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 514.35 55.118 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 514.35 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 514.35 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8be14ed2-086b-4816-b3ed-12f7d1244228")
-		)
-		(pin "1"
-			(uuid "fa14047d-7d36-408a-bfb1-d67f26de136f")
-		)
-		(instances
-			(project "STM32N6_SOM"
-				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PLib:STM32N657X0H3Q")
 		(at 228.6 76.2 0)
 		(unit 5)
@@ -21230,7 +20505,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C42418080:BGA-264_L14.0-W14.0-STM32N657X0H3Q"
+		(property "Footprint" "SamacSys:BGA264C80P17X17_1400X1400X100"
 			(at 228.6 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -22177,8 +21452,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 514.35 116.84 90)
+		(lib_id "Device:C")
+		(at 567.69 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22186,31 +21461,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8ebdd62b-7d36-4709-8c5a-27022255b98c")
-		(property "Reference" "R14"
-			(at 507.746 118.11 90)
+		(uuid "9b500b2e-7769-4489-9343-a3c8de6c575f")
+		(property "Reference" "C7"
+			(at 569.214 110.236 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "0R"
-			(at 512.826 116.84 90)
+		(property "Value" "100nF"
+			(at 566.42 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 514.35 118.618 90)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 568.6552 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22221,7 +21496,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 514.35 116.84 0)
+			(at 567.69 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22231,8 +21506,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 514.35 116.84 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 567.69 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22241,179 +21516,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "9c7fd73c-720c-42e3-96f4-7dc73cde2edb")
 		)
 		(pin "1"
-			(uuid "4c4f3d8c-0654-4371-97a4-144f956f22c8")
+			(uuid "85737c7b-41a4-4d71-9d5b-6a3933236979")
+		)
+		(pin "2"
+			(uuid "23fa6104-9b5f-4d04-a9d1-ae8443417144")
 		)
 		(instances
 			(project "STM32N6_SOM"
 				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 347.98 158.75 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8f81142e-db8f-4266-a227-61af81b4cb31")
-		(property "Reference" "R41"
-			(at 342.646 159.766 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0R"
-			(at 346.456 158.75 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 347.98 160.528 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 347.98 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 347.98 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b5002cc3-7524-4c68-ad92-e694894bb2d0")
-		)
-		(pin "1"
-			(uuid "390726e7-2728-432a-aed0-c310b4d4914c")
-		)
-		(instances
-			(project "STM32N6_SOM"
-				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "R41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 514.35 55.88 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "99180081-0447-4fbf-a30a-5420c20d19f9")
-		(property "Reference" "R22"
-			(at 507.746 57.15 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0R"
-			(at 512.826 55.88 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 514.35 57.658 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 514.35 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 514.35 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a42822e9-dbe3-4b77-8fe8-34e0ec06b33b")
-		)
-		(pin "1"
-			(uuid "f87ae041-7ccc-4b2f-ad99-add3353713cd")
-		)
-		(instances
-			(project "STM32N6_SOM"
-				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "R22")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -22451,7 +21564,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PLib:tfbga24 (6_8mm2)"
 			(at 530.86 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -22656,87 +21769,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 548.64 68.58 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a5594c26-f5ca-4eac-a130-183f31ad059c")
-		(property "Reference" "R35"
-			(at 551.434 69.85 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0R"
-			(at 547.116 68.58 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 548.64 70.358 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 548.64 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 548.64 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d8e28fad-4a1d-4471-ad1c-494405103a43")
-		)
-		(pin "1"
-			(uuid "054276c3-7f28-44cb-b811-6bf8bd1fd52e")
-		)
-		(instances
-			(project "STM32N6_SOM"
-				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "R35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 548.64 44.45 0)
 		(unit 1)
@@ -22816,8 +21848,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 514.35 114.3 90)
+		(lib_id "Device:C")
+		(at 355.6 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22825,31 +21857,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a90f3237-5398-477c-9eed-9894bd74b52e")
-		(property "Reference" "R15"
-			(at 507.746 115.57 90)
+		(uuid "a7a7649c-88be-45f9-83dc-3c48193cf58c")
+		(property "Reference" "C86"
+			(at 357.124 143.256 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "0R"
-			(at 512.826 114.3 90)
+		(property "Value" "8.2pF"
+			(at 354.33 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 514.35 116.078 90)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 356.5652 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22860,7 +21892,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 514.35 114.3 0)
+			(at 355.6 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22870,8 +21902,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 514.35 114.3 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 355.6 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22880,17 +21912,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "04d0280d-9410-48d5-9e85-0467e0d64e97")
 		)
 		(pin "1"
-			(uuid "3203157b-4d7a-470e-92c9-e15e060d6a3d")
+			(uuid "6b12116d-0c41-417a-8696-fd6dfe39e771")
+		)
+		(pin "2"
+			(uuid "e578807e-0b88-4903-a7af-5c2616411949")
 		)
 		(instances
 			(project "STM32N6_SOM"
 				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "R15")
+					(reference "C86")
 					(unit 1)
 				)
 			)
@@ -22929,7 +21961,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 567.3852 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -22972,168 +22004,6 @@
 			(project "STM32N6_SOM"
 				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
 					(reference "C63")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 554.99 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "af535cc7-c4e2-4158-8270-2b977b5a3d91")
-		(property "Reference" "C59"
-			(at 556.514 110.236 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 553.72 110.49 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 555.9552 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 554.99 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 554.99 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8fc61942-4261-4e47-94ae-32ebce0f6c4d")
-		)
-		(pin "2"
-			(uuid "b2d74abb-3edc-4de6-83f7-4d78bf634831")
-		)
-		(instances
-			(project "STM32N6_SOM"
-				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "C59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 548.64 66.04 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "afbe4ac5-7eee-4760-ba13-736d6bca8a58")
-		(property "Reference" "R34"
-			(at 551.434 67.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0R"
-			(at 547.116 66.04 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 548.64 67.818 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 548.64 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 548.64 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3bebc27b-a294-4cbe-8ca9-08cfdda82b89")
-		)
-		(pin "1"
-			(uuid "441c7775-1e1a-4a50-b0e0-2ffd0ee264b2")
-		)
-		(instances
-			(project "STM32N6_SOM"
-				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -23213,6 +22083,83 @@
 			(project "STM32N6_SOM"
 				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
 					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PLib:VDD1V8")
+		(at 496.57 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b0aced4e-8d3f-4d0f-8722-078f89f069a7")
+		(property "Reference" "#PWR065"
+			(at 496.316 125.984 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD1V8"
+			(at 496.57 125.984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 496.57 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 496.57 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 496.57 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6be90997-e412-4efa-a7f7-e8237e00f760")
+		)
+		(instances
+			(project "STM32N6_SOM"
+				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -23375,330 +22322,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 170.18 30.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b7a8fd74-76c4-4ad9-b7d7-94e220d20661")
-		(property "Reference" "C48"
-			(at 171.704 28.956 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 168.91 29.21 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.1452 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 170.18 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2339018b-2b31-4686-8554-05581eab3ed2")
-		)
-		(pin "2"
-			(uuid "ff007a09-d442-4027-924b-e945ffc57a14")
-		)
-		(instances
-			(project "STM32N6_SOM"
-				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "C48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 514.35 124.46 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b94ac8aa-71e1-456d-ba0b-d6257d9131c7")
-		(property "Reference" "R11"
-			(at 507.746 125.73 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0R"
-			(at 512.826 124.46 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 514.35 126.238 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 514.35 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 514.35 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "799c8dd3-da9f-48f6-864d-f9289786e1a3")
-		)
-		(pin "1"
-			(uuid "29871c38-7d92-4600-b85f-133d693b1421")
-		)
-		(instances
-			(project "STM32N6_SOM"
-				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 549.91 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ba6f0188-5c78-4b54-a672-f1cc6e29f34f")
-		(property "Reference" "C60"
-			(at 551.434 110.236 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7µF"
-			(at 548.386 110.49 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 550.8752 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 549.91 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 549.91 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0fa8fdff-1a80-4372-b540-8c7dac69d422")
-		)
-		(pin "2"
-			(uuid "50dcec72-0b5f-4e57-9137-bb07e6f97fcc")
-		)
-		(instances
-			(project "STM32N6_SOM"
-				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "C60")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 514.35 71.12 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ba8821bb-70f1-4572-940e-7abdac1e58ea")
-		(property "Reference" "R28"
-			(at 507.746 72.39 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0R"
-			(at 512.826 71.12 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 514.35 72.898 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 514.35 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 514.35 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "301a724d-2163-488e-9779-7a4494f2d84d")
-		)
-		(pin "1"
-			(uuid "9f986945-aae1-4149-9331-26eea34224a1")
-		)
-		(instances
-			(project "STM32N6_SOM"
-				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 88.9 69.85 180)
 		(unit 1)
@@ -23781,7 +22404,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 562.61 111.76 0)
+		(at 161.29 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23789,9 +22412,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "bffa4240-cdf8-4589-9fce-bfc288119a54")
-		(property "Reference" "C58"
-			(at 564.134 110.236 90)
+		(uuid "bc708fbb-3e1c-44db-b3f0-996d3fcc26b8")
+		(property "Reference" "C14"
+			(at 162.814 28.956 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23801,8 +22424,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7µF"
-			(at 561.34 110.49 90)
+		(property "Value" "1µF"
+			(at 160.02 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23812,8 +22435,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 563.5752 115.57 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 162.2552 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23824,7 +22447,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 562.61 111.76 0)
+			(at 161.29 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23835,7 +22458,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 562.61 111.76 0)
+			(at 161.29 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23846,15 +22469,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "f90c4f60-264a-488a-8918-70069bf5b417")
+			(uuid "091d6a1a-ca8b-43e7-a897-3d5ad8962561")
 		)
 		(pin "2"
-			(uuid "0f9b0c51-bd60-4b0f-91d2-9e6e85abf010")
+			(uuid "8917e0b8-b293-4c7a-b132-7d8e2ca57a75")
 		)
 		(instances
 			(project "STM32N6_SOM"
 				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "C58")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -23862,7 +22485,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 514.35 121.92 90)
+		(at 496.57 132.08 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23870,9 +22493,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c1221ab0-b2fa-446b-a0ab-4cb4ddd06605")
-		(property "Reference" "R12"
-			(at 507.746 123.19 90)
+		(uuid "c2761b1c-df26-46bc-b749-eb6122c47a09")
+		(property "Reference" "R59"
+			(at 497.84 138.684 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23882,8 +22505,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0R"
-			(at 512.826 121.92 90)
+		(property "Value" "10k"
+			(at 496.57 133.604 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23893,8 +22516,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 514.35 123.698 90)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 498.348 132.08 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23905,7 +22528,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 514.35 121.92 0)
+			(at 496.57 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23916,7 +22539,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 514.35 121.92 0)
+			(at 496.57 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23927,15 +22550,96 @@
 			)
 		)
 		(pin "2"
-			(uuid "65910228-79e3-4a3a-904e-6d1c68d9cfc5")
+			(uuid "7d428b0c-9c2b-4e09-972c-63a14bcba16b")
 		)
 		(pin "1"
-			(uuid "f507431e-6077-42e8-9c7f-5f571942183e")
+			(uuid "ea177e6a-8561-4819-b83f-b3211f490eb8")
 		)
 		(instances
 			(project "STM32N6_SOM"
 				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "R12")
+					(reference "R59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 382.27 158.75 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c2bae8b1-aeeb-4702-a07d-9667fd30d46c")
+		(property "Reference" "R58"
+			(at 375.666 160.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 380.746 158.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 382.27 160.528 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 382.27 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 382.27 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9ae2afcf-ae08-4cb6-a369-40ea3cabc3b8")
+		)
+		(pin "1"
+			(uuid "f1a31f5c-e66b-4cac-a6ec-5888dd496a54")
+		)
+		(instances
+			(project "STM32N6_SOM"
+				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -24013,87 +22717,6 @@
 			(project "STM32N6_SOM"
 				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
 					(reference "#PWR077")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 514.35 41.91 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c45739b9-488b-4cdb-b821-8413ddf64ef1")
-		(property "Reference" "R37"
-			(at 507.746 43.18 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0R"
-			(at 512.826 41.91 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 514.35 43.688 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 514.35 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 514.35 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "778144c0-b4cf-40c3-8c14-105ad92d6c38")
-		)
-		(pin "1"
-			(uuid "ee1d9ac7-21a4-4202-97d3-3d4ab0b6486f")
-		)
-		(instances
-			(project "STM32N6_SOM"
-				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -24181,8 +22804,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 514.35 127 90)
+		(lib_id "Device:C")
+		(at 170.18 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24190,31 +22813,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c79410e0-8a40-491d-be78-ab92dc01e453")
-		(property "Reference" "R10"
-			(at 507.746 128.27 90)
+		(uuid "c96772a2-c621-4185-93bd-3648f280daa5")
+		(property "Reference" "C12"
+			(at 171.704 28.956 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "0R"
-			(at 512.826 127 90)
+		(property "Value" "100nF"
+			(at 168.91 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 514.35 128.778 90)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 171.1452 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24225,7 +22848,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 514.35 127 0)
+			(at 170.18 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24235,8 +22858,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 514.35 127 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 170.18 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24245,25 +22868,25 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "b5cacb64-4013-4a4c-abb4-70621814c811")
 		)
 		(pin "1"
-			(uuid "69702682-caf7-4503-891f-5833041ca90d")
+			(uuid "8850c28e-bead-45eb-ac19-b55d755bd256")
+		)
+		(pin "2"
+			(uuid "8877ea02-9e88-46a0-b037-5bcdaa450548")
 		)
 		(instances
 			(project "STM32N6_SOM"
 				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "R10")
+					(reference "C12")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 548.64 53.34 90)
+		(lib_id "Device:C")
+		(at 571.5 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24271,31 +22894,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "dc9ec23c-c00e-4145-8f1e-2d3fe56441e6")
-		(property "Reference" "R29"
-			(at 551.434 54.61 90)
+		(uuid "d0630b66-e138-4f47-8f14-311ac057e206")
+		(property "Reference" "C10"
+			(at 573.024 36.576 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "0R"
-			(at 547.116 53.34 90)
+		(property "Value" "100nF"
+			(at 570.23 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 548.64 55.118 90)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 572.4652 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24306,7 +22929,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 548.64 53.34 0)
+			(at 571.5 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24316,8 +22939,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 548.64 53.34 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 571.5 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24326,17 +22949,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "df33e77b-0afe-483b-9fdc-3b46eab2c346")
 		)
 		(pin "1"
-			(uuid "fe27fa23-d672-4d83-83b9-93e01adf05bc")
+			(uuid "fa93f315-adb0-48b4-821b-c826ce51318f")
+		)
+		(pin "2"
+			(uuid "26b45a41-c28c-404a-b43b-0e6e1d222d83")
 		)
 		(instances
 			(project "STM32N6_SOM"
 				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "R29")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -24445,249 +23068,6 @@
 			(project "STM32N6_SOM"
 				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
 					(reference "Y1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 571.5 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "de227753-37c2-4562-94cc-8e19eeeeeca0")
-		(property "Reference" "R18"
-			(at 570.484 136.144 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 571.5 131.318 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 569.722 133.35 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 571.5 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 571.5 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fdbc3b48-78e0-4b2e-9aa3-2679d3083856")
-		)
-		(pin "1"
-			(uuid "105a3ae5-b629-45e1-837c-da4d246c5b4f")
-		)
-		(instances
-			(project "STM32N6_SOM"
-				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 382.27 140.97 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "df7f96c3-d35b-4eb6-b6eb-6f3111d82ad0")
-		(property "Reference" "R38"
-			(at 376.936 141.986 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0R"
-			(at 380.746 140.97 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 382.27 142.748 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 382.27 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 382.27 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1fd8e3eb-f7a6-455b-b426-5ae839cca86b")
-		)
-		(pin "1"
-			(uuid "54b12e2a-a10f-4fb5-b1c8-35cb44fdfd9f")
-		)
-		(instances
-			(project "STM32N6_SOM"
-				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 514.35 58.42 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e0610475-679b-4b36-b181-be72ae98e86b")
-		(property "Reference" "R23"
-			(at 507.746 59.69 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0R"
-			(at 512.826 58.42 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 514.35 60.198 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 514.35 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 514.35 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5d05c462-1e51-46d1-9166-1db6c0ce4f87")
-		)
-		(pin "1"
-			(uuid "a4f6d771-3ace-4653-8672-060155a6439a")
-		)
-		(instances
-			(project "STM32N6_SOM"
-				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -25246,7 +23626,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 88.9 30.48 0)
+		(at 562.61 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25254,9 +23634,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e42d4e76-0dc3-49f8-95af-f8aa94da5f87")
-		(property "Reference" "C46"
-			(at 90.424 28.956 90)
+		(uuid "e2852075-3dc8-41cd-a232-ad1407831bb8")
+		(property "Reference" "C84"
+			(at 564.134 110.236 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25266,8 +23646,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1µF"
-			(at 87.63 29.21 90)
+		(property "Value" "4.7µF"
+			(at 561.34 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25277,8 +23657,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 89.8652 34.29 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 563.5752 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25289,7 +23669,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 30.48 0)
+			(at 562.61 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25300,7 +23680,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 88.9 30.48 0)
+			(at 562.61 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25311,15 +23691,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "10b6ccb3-fef6-44ef-91d8-27795e8a335e")
+			(uuid "67746790-63fc-4dc1-867a-03e1d18dbcca")
 		)
 		(pin "2"
-			(uuid "4b15fdd8-55a4-446c-962c-351b2c80b375")
+			(uuid "58aa0c4e-d1e0-4ad7-bcb5-2606764d0481")
 		)
 		(instances
 			(project "STM32N6_SOM"
 				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "C46")
+					(reference "C84")
 					(unit 1)
 				)
 			)
@@ -25357,7 +23737,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C42418080:BGA-264_L14.0-W14.0-STM32N657X0H3Q"
+		(property "Footprint" "SamacSys:BGA264C80P17X17_1400X1400X100"
 			(at 123.19 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -26226,7 +24606,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 514.35 66.04 90)
+		(at 497.84 30.48 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26234,9 +24614,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e8658274-ee88-4e28-ae77-07e6e37564f1")
-		(property "Reference" "R26"
-			(at 507.746 67.31 90)
+		(uuid "fb3f9a53-21eb-4b68-8c77-eca15b57b44d")
+		(property "Reference" "R60"
+			(at 499.11 37.084 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26246,8 +24626,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0R"
-			(at 512.826 66.04 90)
+		(property "Value" "10k"
+			(at 497.84 32.004 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26257,8 +24637,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 514.35 67.818 90)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 499.618 30.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26269,7 +24649,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 514.35 66.04 0)
+			(at 497.84 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26280,7 +24660,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 514.35 66.04 0)
+			(at 497.84 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26291,177 +24671,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "0f3a26e8-1105-4ea7-9a1c-5305a5c5b6e9")
+			(uuid "60b1f96c-1fb8-4494-ac61-ee0800d31060")
 		)
 		(pin "1"
-			(uuid "6c6a4653-8416-4da7-a733-d84fcafe2d9a")
+			(uuid "87d5d485-8d0c-476a-8533-0a7cddf38f03")
 		)
 		(instances
 			(project "STM32N6_SOM"
 				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 161.29 30.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f5fd4cc9-9839-43bc-b5d0-4612f7c6f630")
-		(property "Reference" "C47"
-			(at 162.814 28.956 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1µF"
-			(at 160.02 29.21 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.2552 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 161.29 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2cbef8da-c104-41c7-8880-6fc431cbcbbc")
-		)
-		(pin "2"
-			(uuid "e8d22d14-f71f-49fe-b13c-1e0e79885ff5")
-		)
-		(instances
-			(project "STM32N6_SOM"
-				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "C47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 553.72 38.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fb7c2efd-6202-4cf9-85ee-94e51da1d192")
-		(property "Reference" "C61"
-			(at 555.244 36.576 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7µF"
-			(at 552.196 36.83 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 554.6852 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 553.72 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 553.72 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b98a03c6-1707-40ca-81a2-4d9a5edef96c")
-		)
-		(pin "2"
-			(uuid "3ab98f15-9483-4a62-a0ca-a22266451a9a")
-		)
-		(instances
-			(project "STM32N6_SOM"
-				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "C61")
+					(reference "R60")
 					(unit 1)
 				)
 			)

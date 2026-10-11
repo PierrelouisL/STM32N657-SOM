@@ -503,328 +503,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L_Ferrite"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L_Ferrite"
-				(at 2.794 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Inductor with ferrite core"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "L_Ferrite_0_1"
-				(arc
-					(start 0 2.54)
-					(mid 0.6323 1.905)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 -0.635)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -1.905)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 2.286) (xy 1.016 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.27) (xy 1.016 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0.254) (xy 1.016 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -0.762) (xy 1.016 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.778) (xy 1.016 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -2.794) (xy 1.016 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 2.794) (xy 1.524 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 1.778) (xy 1.524 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 0.762) (xy 1.524 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -0.254) (xy 1.524 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -1.27) (xy 1.524 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -2.286) (xy 1.524 -2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_Ferrite_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -7381,6 +7059,16 @@
 		)
 		(uuid "1240af9d-c964-498d-9ab0-2d15384beecb")
 	)
+	(text "Both have quick discharge to respect pwr down seq"
+		(exclude_from_sim no)
+		(at 77.978 216.916 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "14c09f6e-d000-4d36-b569-f6a8bdc1e20d")
+	)
 	(text "VDDIO4/5 are mainly SDMMC,\nforcing 3v3 because it would\nimpact UARTs on the same bank."
 		(exclude_from_sim no)
 		(at 226.06 91.186 0)
@@ -7674,12 +7362,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58e889e2-de9d-4da8-add2-aff0ce2a79da")
-	)
-	(junction
-		(at 72.39 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5ada3450-13d4-469a-978f-1a3c13afd07e")
 	)
 	(junction
 		(at 125.73 54.61)
@@ -8076,12 +7758,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bfc3e754-2059-4392-b24c-b6c32c5217c5")
-	)
-	(junction
-		(at 72.39 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c38a500a-ff65-4d43-9e50-42ce98d1b526")
 	)
 	(junction
 		(at 85.09 54.61)
@@ -9181,16 +8857,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 115.57) (xy 72.39 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b3ffd56-efb6-4fab-b462-916798546a07")
-	)
-	(wire
-		(pts
 			(xy 125.73 52.07) (xy 125.73 49.53)
 		)
 		(stroke
@@ -10159,16 +9825,6 @@
 			(type default)
 		)
 		(uuid "dc658062-9678-45a8-b9d2-0d04c103a778")
-	)
-	(wire
-		(pts
-			(xy 67.31 107.95) (xy 72.39 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd208557-678a-43ee-ba34-ee366bafb40c")
 	)
 	(wire
 		(pts
@@ -12378,7 +12034,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS22914BYFPR"
+		(property "Value" "TPS22915BYFPR"
 			(at 77.47 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12400,7 +12056,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tps22914"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tps22915"
 			(at 57.15 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -12412,7 +12068,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Need TPS22915 to have quick discharge"
 			(at 57.15 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -12423,7 +12079,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1848394"
+		(property "LCSC" "C478464"
 			(at 57.15 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -15924,87 +15580,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 67.31 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "53580a23-d798-4f7e-b1eb-cf8acd768523")
-		(property "Reference" "C17"
-			(at 68.834 110.236 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1µF"
-			(at 66.04 110.49 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 68.2752 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 67.31 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8fe89348-b9e2-424e-b9f3-76022be54947")
-		)
-		(pin "2"
-			(uuid "9f34e175-7530-46c2-a50b-ed2408d50422")
-		)
-		(instances
-			(project "STM32N6_SOM"
-				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8/b069fc75-800d-4bb3-9535-5aba8669997e"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 110.49 50.8 0)
 		(unit 1)
 		(body_style 1)
@@ -16198,7 +15773,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 102.362 185.42 90)
 			(hide yes)
 			(show_name no)
@@ -16676,7 +16251,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 189.23 69.342 90)
 			(hide yes)
 			(show_name no)
@@ -17266,6 +16841,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C3744287"
+			(at 157.48 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "0e64441a-c138-471b-b201-e25a430df434")
 		)
@@ -17684,85 +17270,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Ferrite")
-		(at 196.85 66.04 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "75804dd1-3a17-418a-93a5-114ea60025fa")
-		(property "Reference" "L2"
-			(at 200.914 64.516 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1µH"
-			(at 191.516 64.77 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor with ferrite core"
-			(at 196.85 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6dae8338-6738-4db5-a097-430991d384c8")
-		)
-		(pin "2"
-			(uuid "4b2f5ea6-564d-417a-aaaa-ba980788d573")
-		)
-		(instances
-			(project "STM32N6_SOM"
-				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8/b069fc75-800d-4bb3-9535-5aba8669997e"
-					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 213.36 73.66 0)
 		(unit 1)
@@ -17836,6 +17343,97 @@
 			(project "STM32N6_SOM"
 				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8/b069fc75-800d-4bb3-9535-5aba8669997e"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 196.85 66.04 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7df0631f-a716-4665-a662-6ac46658970c")
+		(property "Reference" "L3"
+			(at 196.85 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1µH"
+			(at 196.85 63.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 196.85 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 196.85 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1042"
+			(at 196.85 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb962408-c651-48a8-8f0e-d6f1623d0cd7")
+		)
+		(pin "2"
+			(uuid "82edb955-3d92-44db-9275-69e471d23d1c")
+		)
+		(instances
+			(project "STM32N6_SOM"
+				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8/b069fc75-800d-4bb3-9535-5aba8669997e"
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -18263,7 +17861,7 @@
 				)
 			)
 		)
-		(property "Value" "TPSM82822ASILR"
+		(property "Value" "TPSM82823ASILR"
 			(at 77.724 171.196 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18285,7 +17883,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tpsm82822a"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tpsm82823a"
 			(at 57.15 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -18391,7 +17989,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 102.362 195.58 90)
 			(hide yes)
 			(show_name no)
@@ -18787,7 +18385,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 113.03 94.488 90)
 			(hide yes)
 			(show_name no)
@@ -18809,8 +18407,19 @@
 				)
 			)
 		)
-		(property "Description" "Ferrite bead 18R @ 100MHz 750mA"
+		(property "Description" "Ferrite bead 19R @ 100MHz 6A 10mOhm"
 			(at 113.03 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3032750"
+			(at 113.03 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21497,7 +21106,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 216.408 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -21520,6 +21129,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 214.63 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25790"
 			(at 214.63 53.34 0)
 			(hide yes)
 			(show_name no)

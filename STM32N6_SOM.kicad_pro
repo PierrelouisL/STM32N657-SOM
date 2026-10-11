@@ -146,14 +146,14 @@
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.2,
-        "min_microvia_diameter": 0.25,
+        "min_microvia_diameter": 0.3,
         "min_microvia_drill": 0.15,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.25,
-        "min_track_width": 0.2,
+        "min_through_hole_diameter": 0.2,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
@@ -242,7 +242,11 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.45,
+          "diameter": 0.5,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.55,
           "drill": 0.25
         }
       ],
@@ -510,7 +514,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -663,7 +667,7 @@
         "uuid": "af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
       }
     ],
-    "used_designators": "C7-14,C57-58,C64,C84-87,#FLG1-6,R22-37,R43-60,#PWR29,#PWR65,#PWR76,#PWR78-82,U6",
+    "used_designators": "Y3",
     "variants": []
   },
   "sheets": [

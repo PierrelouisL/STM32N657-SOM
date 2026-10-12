@@ -9444,12 +9444,6 @@
 		(uuid "4bd061f9-73c2-40ae-a8ed-d55591cba465")
 	)
 	(junction
-		(at 571.5 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5258d5e2-a03f-4b40-9df6-3e0c8b28af7e")
-	)
-	(junction
 		(at 557.53 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10694,16 +10688,6 @@
 			(type default)
 		)
 		(uuid "5c179c45-9d8c-4ce7-8487-206690514294")
-	)
-	(wire
-		(pts
-			(xy 571.5 128.27) (xy 571.5 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d0501fc-3ddc-4602-999a-25cfe285cd7e")
 	)
 	(wire
 		(pts
@@ -12240,16 +12224,6 @@
 			(type default)
 		)
 		(uuid "dd142395-8896-412f-8a02-1dd76ef286ae")
-	)
-	(wire
-		(pts
-			(xy 571.5 139.7) (xy 571.5 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddab9448-e5d0-4500-9d9b-e07c8b1d8199")
 	)
 	(wire
 		(pts
@@ -19474,87 +19448,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 571.5 133.35 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "6c4d8a78-899a-4f58-b31d-17cfff7101e4")
-		(property "Reference" "R54"
-			(at 572.77 139.954 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 571.5 134.874 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 573.278 133.35 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 571.5 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 571.5 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4eaa78fe-c1f5-46c4-9e48-a28a35bd9c3a")
-		)
-		(pin "1"
-			(uuid "ec8b4e58-78f9-429e-9089-68488e5d2b1c")
-		)
-		(instances
-			(project "STM32N6_SOM"
-				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "R54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 355.6 162.56 0)
 		(unit 1)
@@ -21641,85 +21534,6 @@
 				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
 					(reference "U1")
 					(unit 5)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 571.5 139.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d81a923-fffc-4708-acd0-254298801603")
-		(property "Reference" "#PWR062"
-			(at 571.5 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 571.5 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 571.5 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 571.5 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 571.5 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "04ba5330-b6ec-416f-b421-18459ef68bda")
-		)
-		(instances
-			(project "STM32N6_SOM"
-				(path "/af5ed896-0f4b-4a3b-83a3-1b3549d508f8"
-					(reference "#PWR062")
-					(unit 1)
 				)
 			)
 		)
